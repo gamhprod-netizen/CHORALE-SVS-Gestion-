@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>Chorale — Carnet de Gestion</title>
+  <meta name="description" content="Système de gestion complet de la chorale : membres, présences, cotisations, évaluations, anniversaires.">
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#7A2E2E">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Chorale">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="icon" type="image/png" href="icons/icon-192.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="app"></div>
+
+  <!-- Data -->
+  <script src="data/seed.js"></script>
+  <!-- Core -->
+  <script src="js/utils.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/router.js"></script>
+  <!-- Modules -->
+  <script src="js/modules/dashboard.js"></script>
+  <script src="js/modules/membres.js"></script>
+  <script src="js/modules/discipline.js"></script>
+  <script src="js/modules/tresorerie.js"></script>
+  <script src="js/modules/secretariat.js"></script>
+  <script src="js/modules/direction.js"></script>
+  <script src="js/modules/repetitions.js"></script>
+  <script src="js/modules/anniversaires.js"></script>
+  <script src="js/modules/rapports.js"></script>
+  <script src="js/modules/parametres.js"></script>
+  <!-- App -->
+  <script src="js/app.js"></script>
+</body>
+</html>
